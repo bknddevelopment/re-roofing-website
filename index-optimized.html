@@ -119,13 +119,18 @@
     }
     </script>
 
-    <!-- Google Fonts -->
+    <!-- Resource Hints for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://youngconstructionnorthiowa.com">
+
+    <!-- Google Fonts with display=swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght=800&family=Overpass:wght=400;900&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Font Awesome - defer non-critical CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -261,7 +266,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-video-container">
-            <video autoplay muted loop playsinline class="hero-video">
+            <video autoplay muted loop playsinline class="hero-video" preload="metadata" poster="images/roof-hero.jpg">
                 <source src="https://youngconstructionnorthiowa.com/wp-content/uploads/2024/11/young-construction-homepage-video.mp4" type="video/mp4">
                 <source src="videos/roofing-background.mp4" type="video/mp4">
             </video>
@@ -296,7 +301,7 @@
                 <!-- Siding Card -->
                 <div class="explore-card card-siding">
                     <div class="explore-icon">
-                        <img src="images/icon-siding.svg" alt="Siding Service Icon">
+                        <img src="images/icon-siding.svg" alt="Siding Service Icon" width="180" height="150" loading="lazy">
                     </div>
                     <h3>Siding</h3>
                     <p>We'll install beautiful and serviceable siding, offering vinyl and steel options to replace your worn exterior.</p>
@@ -310,7 +315,7 @@
                 <!-- Roofing Card (Center) -->
                 <div class="explore-card card-roofing">
                     <div class="explore-icon">
-                        <img src="images/icon-roofing.svg" alt="Roofing Service Icon">
+                        <img src="images/icon-roofing.svg" alt="Roofing Service Icon" width="180" height="150" loading="lazy">
                     </div>
                     <h3>Roofing</h3>
                     <p>We offer a complete line up of professional roofing services including inspections, replacements, and repairs.</p>
@@ -324,7 +329,7 @@
                 <!-- Gutters Card -->
                 <div class="explore-card card-gutters">
                     <div class="explore-icon">
-                        <img src="images/icon-gutters.svg" alt="Gutters Service Icon">
+                        <img src="images/icon-gutters.svg" alt="Gutters Service Icon" width="180" height="150" loading="lazy">
                     </div>
                     <h3>Gutters</h3>
                     <p>We provide the highest quality seamless gutters in the industry, including Leafblaster Gutter Guards.</p>
@@ -385,26 +390,6 @@
                         <h3>R&E ROOFING</h3>
                     </div>
                     <p>Your trusted roofing experts providing quality services for over 25 years.</p>
-                    <p class="footer-license">Licensed & Insured in New Jersey</p>
-                </div>
-
-                <div class="footer-middle">
-                    <div class="footer-service-areas">
-                        <h4>Service Areas</h4>
-                        <ul class="service-areas-list">
-                            <li>Newark, NJ</li>
-                            <li>East Orange, NJ</li>
-                            <li>Irvington, NJ</li>
-                            <li>Bloomfield, NJ</li>
-                            <li>West Orange, NJ</li>
-                            <li>Montclair, NJ</li>
-                            <li>Belleville, NJ</li>
-                            <li>Orange, NJ</li>
-                            <li>Livingston, NJ</li>
-                            <li>Nutley, NJ</li>
-                        </ul>
-                        <p class="all-essex">+ All of Essex County</p>
-                    </div>
                 </div>
 
                 <div class="footer-right">
@@ -423,13 +408,14 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2024 R&E Roofing. All rights reserved. | Serving Essex County, NJ</p>
+                <p>&copy; 2024 R&E Roofing. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <!-- JavaScript - defer for better performance -->
+    <script src="js/main.js" defer></script>
+
     <!-- Live Chat Widget -->
     <div id="liveChat" class="live-chat">
         <button class="chat-toggle" aria-label="Open chat">

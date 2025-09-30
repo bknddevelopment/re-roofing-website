@@ -210,8 +210,8 @@ contactForm.addEventListener('submit', function(e) {
         successMsg.textContent = 'Thank you! We\'ll contact you within 24 hours.';
         contactForm.insertBefore(successMsg, contactForm.firstChild);
 
-        // Log form data (in production, this would be sent to a server)
-        console.log('Form submitted with data:', data);
+        // In production, this would be sent to a server
+        // Example: fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) });
 
         // Reset form after 2 seconds
         setTimeout(() => {
