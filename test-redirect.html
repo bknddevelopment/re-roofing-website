@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect Test Page</title>
+    <script>
+        // Simulate the redirect logic
+        (function() {
+            var hash = window.location.hash;
+            if (hash) {
+                var redirectMap = {
+                    '#services': 'services.html',
+                    '#calculator': 'calculator.html',
+                    '#reviews': 'reviews.html',
+                    '#faq': 'faq.html',
+                    '#about': 'about.html'
+                };
+
+                if (redirectMap[hash]) {
+                    document.write('<h1>Redirect Working!</h1>');
+                    document.write('<p>Would redirect from: <strong>' + hash + '</strong></p>');
+                    document.write('<p>To: <strong>' + redirectMap[hash] + '</strong></p>');
+                    document.write('<p style="color: green;">✓ Script is functioning correctly</p>');
+                } else {
+                    document.write('<h1>No Redirect Needed</h1>');
+                    document.write('<p>Hash: ' + hash + ' is not in redirect map</p>');
+                }
+            } else {
+                document.write('<h1>Test Redirect Script</h1>');
+                document.write('<p>No hash detected. Try accessing with #services, #calculator, #reviews, #faq, or #about</p>');
+                document.write('<h2>Test Links:</h2>');
+                document.write('<ul>');
+                document.write('<li><a href="test-redirect.html#services">Test #services</a></li>');
+                document.write('<li><a href="test-redirect.html#calculator">Test #calculator</a></li>');
+                document.write('<li><a href="test-redirect.html#reviews">Test #reviews</a></li>');
+                document.write('<li><a href="test-redirect.html#faq">Test #faq</a></li>');
+                document.write('<li><a href="test-redirect.html#about">Test #about</a></li>');
+                document.write('</ul>');
+            }
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>

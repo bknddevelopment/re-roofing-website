@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&E Roofing - Professional Roofing, Siding & Gutters</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Expert roofing, siding & gutter services with 25+ years experience. Licensed & insured. Free estimates & 24/7 emergency service. Call (667) 204-1609 today.">
+    <meta name="keywords" content="roofing, roof repair, roof replacement, roofing contractor, emergency roof repair, shingle roofing, metal roofing, commercial roofing, residential roofing">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="R&E Roofing">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="R&E Roofing - Professional Roofing, Siding & Gutters">
+    <meta property="og:description" content="Expert roofing, siding & gutter services with 25+ years experience. Licensed & insured. Free estimates & 24/7 emergency service.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://reroofing.com/">
+    <meta property="og:image" content="https://reroofing.com/images/og-image.jpg">
+    <meta property="og:site_name" content="R&E Roofing">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="R&E Roofing - Professional Roofing, Siding & Gutters">
+    <meta name="twitter:description" content="Expert roofing, siding & gutter services with 25+ years experience. Licensed & insured. Free estimates & 24/7 emergency service.">
+    <meta name="twitter:image" content="https://reroofing.com/images/twitter-card.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://reroofing.com/">
+
+    <!-- Structured Data (Local Business) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RoofingContractor",
+        "name": "R&E Roofing",
+        "description": "Professional roofing services including installation, repair, and maintenance",
+        "url": "https://reroofing.com",
+        "telephone": "(667) 204-1609",
+        "email": "info@randeroofing.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Your City",
+            "addressRegion": "State",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "openingHours": "Mo-Fr 08:00-18:00, Sa 09:00-16:00",
+        "priceRange": "$$",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "127"
+        }
+    }
+    </script>
+
+    <!-- Structured Data (Organization) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "R&E Roofing",
+        "url": "https://reroofing.com",
+        "logo": "https://reroofing.com/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-667-204-1609",
+            "contactType": "customer service",
+            "areaServed": "US",
+            "availableLanguage": "en"
+        },
+        "sameAs": []
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght=800&family=Overpass:wght=400;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Get Your Free Roofing Quote</h2>
+            <p>Fill out the form below and we'll get back to you within 24 hours</p>
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Needed*</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="roof-repair">Roof Repair</option>
+                        <option value="roof-replacement">Roof Replacement</option>
+                        <option value="new-construction">New Construction</option>
+                        <option value="siding">Siding Installation</option>
+                        <option value="gutters">Gutter Installation</option>
+                        <option value="emergency">Emergency Repair</option>
+                        <option value="inspection">Inspection</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Property Address</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Please describe your project or any specific concerns..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="preferred-contact">Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact-method" value="phone" checked> Phone</label>
+                        <label><input type="radio" name="contact-method" value="email"> Email</label>
+                        <label><input type="radio" name="contact-method" value="text"> Text</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary submit-btn">Get My Free Quote</button>
+                <p class="form-disclaimer">*We respect your privacy and will never share your information.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>R&E ROOFING</h1>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="has-dropdown">
+                            <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html">All Services</a></li>
+                                <li><a href="calculator.html">Get Quote</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-right">
+                    <div class="phone-number">
+                        <i class="fas fa-phone"></i>
+                        <span>(667) 204-1609</span>
+                    </div>
+                    <button class="cta-button">Get Free Quote</button>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li>
+                    <a href="services.html" class="mobile-nav-link has-submenu">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="mobile-submenu">
+                        <li><a href="services.html">All Services</a></li>
+                        <li><a href="calculator.html">Get Quote</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html" class="mobile-nav-link">About</a></li>
+                <li><a href="reviews.html" class="mobile-nav-link">Reviews</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                <li class="mobile-cta">
+                    <button class="cta-button mobile-quote-btn">Get Free Quote</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="https://youngconstructionnorthiowa.com/wp-content/uploads/2024/11/young-construction-homepage-video.mp4" type="video/mp4">
+                <source src="videos/roofing-background.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="trust-badge">
+                    <span>Your Trusted Roofing Experts</span>
+                </div>
+                <h1 class="hero-title">Professional Roofing<br>Services You Can Trust</h1>
+                <p class="hero-subtitle">Expert installation, repair, and maintenance services for residential and commercial properties throughout the region.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Schedule Inspection</button>
+                    <a href="services.html" class="btn-outline-white">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Our Services Section -->
+    <section class="explore-services">
+        <div class="container">
+            <div class="explore-header">
+                <h2 class="explore-title">Explore Our Services</h2>
+                <div class="explore-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div class="explore-cards-wrapper">
+                <!-- Siding Card -->
+                <div class="explore-card card-siding">
+                    <div class="explore-icon">
+                        <img src="images/icon-siding.svg" alt="Siding Service Icon">
+                    </div>
+                    <h3>Siding</h3>
+                    <p>We'll install beautiful and serviceable siding, offering vinyl and steel options to replace your worn exterior.</p>
+                    <a href="services.html" class="btn-learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    <div class="service-tags">
+                        <a href="services.html" class="service-tag">Vinyl Siding</a>
+                        <a href="services.html" class="service-tag">Steel Siding</a>
+                    </div>
+                </div>
+
+                <!-- Roofing Card (Center) -->
+                <div class="explore-card card-roofing">
+                    <div class="explore-icon">
+                        <img src="images/icon-roofing.svg" alt="Roofing Service Icon">
+                    </div>
+                    <h3>Roofing</h3>
+                    <p>We offer a complete line up of professional roofing services including inspections, replacements, and repairs.</p>
+                    <a href="services.html" class="btn-learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    <div class="service-tags">
+                        <a href="services.html" class="service-tag">Shingle Roofing</a>
+                        <a href="services.html" class="service-tag">Metal Roofing</a>
+                    </div>
+                </div>
+
+                <!-- Gutters Card -->
+                <div class="explore-card card-gutters">
+                    <div class="explore-icon">
+                        <img src="images/icon-gutters.svg" alt="Gutters Service Icon">
+                    </div>
+                    <h3>Gutters</h3>
+                    <p>We provide the highest quality seamless gutters in the industry, including Leafblaster Gutter Guards.</p>
+                    <a href="services.html" class="btn-learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    <div class="service-tags">
+                        <a href="services.html" class="service-tag">Seamless Gutters</a>
+                        <a href="services.html" class="service-tag">Gutter Guards</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <h3>R&E ROOFING</h3>
+                    </div>
+                    <p>Your trusted roofing experts providing quality services for over 25 years.</p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(667) 204-1609</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@randeroofing.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 R&E Roofing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- Live Chat Widget -->
+    <div id="liveChat" class="live-chat">
+        <button class="chat-toggle" aria-label="Open chat">
+            <i class="fas fa-comment-dots"></i>
+            <span class="chat-badge">1</span>
+        </button>
+
+        <div class="chat-window">
+            <div class="chat-header">
+                <h4>Live Support</h4>
+                <button class="chat-close" aria-label="Close chat">×</button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message bot">
+                    <p>👋 Hi! How can we help you with your roofing needs today?</p>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button class="chat-send" aria-label="Send message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+</body>
+</html>

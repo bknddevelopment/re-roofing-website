@@ -1,0 +1,60 @@
+R&E ROOFING - IMAGE REQUIREMENTS
+================================
+
+Required Images for Website:
+
+1. LOGO.PNG
+   - Dimensions: 200x80px (or similar aspect ratio)
+   - Format: PNG with transparent background
+   - Usage: Navigation header and footer
+   - Style: Clean, professional roofing company logo
+
+2. FAVICON.ICO
+   - Dimensions: 32x32px (standard favicon size)
+   - Format: ICO file
+   - Usage: Browser tab icon
+   - Style: Simplified version of main logo
+
+3. HERO-ROOF.JPG
+   - Dimensions: 1920x1080px (Full HD)
+   - Format: JPEG (optimized for web)
+   - Usage: Hero section background
+   - Content: Professional roofing work, completed project, or team at work
+   - Style: High contrast, suitable for text overlay
+   - Lighting: Well-lit, shows quality craftsmanship
+
+4. FINANCING-FAMILY.JPG
+   - Dimensions: 600x400px
+   - Format: JPEG
+   - Usage: Financing section
+   - Content: Happy family in front of their home
+   - Style: Warm, welcoming, represents satisfied customers
+
+5. TEAM-PHOTO.JPG
+   - Dimensions: 600x400px
+   - Format: JPEG
+   - Usage: About section
+   - Content: R&E Roofing team members
+   - Style: Professional, friendly, shows expertise
+
+PLACEHOLDER SOURCES:
+==================
+While sourcing actual images, you can use:
+- Unsplash.com (search: "roofing", "construction", "team", "family home")
+- Pexels.com (free stock photos)
+- Company photos (preferred for authenticity)
+
+IMAGE OPTIMIZATION TIPS:
+========================
+- Compress images for web (aim for <500KB per image)
+- Use WebP format when possible for better compression
+- Ensure images are high quality but optimized for loading speed
+- Use descriptive alt text for accessibility
+- Consider retina/high-DPI displays (2x versions)
+
+BRAND GUIDELINES:
+================
+- Colors: Black (#000000), Orange (#FF6B35), White (#FFFFFF)
+- Style: Professional, trustworthy, high-quality
+- Tone: Experienced, reliable, local business
+- Focus: Craftsmanship, customer satisfaction, results

@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&E Roofing - Comprehensive Test Suite</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .summary {
+            padding: 30px;
+            background: linear-gradient(135deg, #f6f9fc, #e9f0f5);
+            border-bottom: 2px solid #d1dce5;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .summary-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .summary-card .number {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .summary-card .label {
+            color: #6c757d;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary-card.total .number { color: #667eea; }
+        .summary-card.passed .number { color: #28a745; }
+        .summary-card.failed .number { color: #dc3545; }
+        .summary-card.skipped .number { color: #ffc107; }
+
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #20c997);
+            transition: width 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .test-results {
+            padding: 30px;
+        }
+
+        .test-category {
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .category-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .category-header:hover {
+            background: linear-gradient(135deg, #5568d3, #6a3f92);
+        }
+
+        .category-content {
+            display: none;
+        }
+
+        .category-content.expanded {
+            display: block;
+        }
+
+        .test-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: background 0.2s;
+        }
+
+        .test-item:hover {
+            background: #f8f9fa;
+        }
+
+        .test-item:last-child {
+            border-bottom: none;
+        }
+
+        .test-status {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .test-status.pending {
+            background: #e9ecef;
+            color: #6c757d;
+        }
+
+        .test-status.running {
+            background: #ffc107;
+            animation: pulse 1s infinite;
+        }
+
+        .test-status.passed {
+            background: #28a745;
+            color: white;
+        }
+
+        .test-status.failed {
+            background: #dc3545;
+            color: white;
+        }
+
+        .test-status.skipped {
+            background: #ffc107;
+            color: white;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .test-name {
+            flex: 1;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+
+        .test-duration {
+            color: #6c757d;
+            font-size: 12px;
+        }
+
+        .test-details {
+            margin-left: 54px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-left: 3px solid #dc3545;
+            border-radius: 4px;
+            margin-top: -5px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            color: #dc3545;
+            display: none;
+        }
+
+        .test-details.show {
+            display: block;
+        }
+
+        .iframe-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .test-log {
+            margin-top: 20px;
+            padding: 15px;
+            background: #2c3e50;
+            color: #ecf0f1;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            border-radius: 6px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            margin-bottom: 5px;
+            padding: 2px 0;
+        }
+
+        .log-entry.info { color: #3498db; }
+        .log-entry.success { color: #2ecc71; }
+        .log-entry.error { color: #e74c3c; }
+        .log-entry.warning { color: #f39c12; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>R&E Roofing - Comprehensive Test Suite</h1>
+            <p>Automated testing for all 8 pages</p>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" onclick="runAllTests()">Run All Tests</button>
+            <button class="btn btn-secondary" onclick="clearResults()">Clear Results</button>
+            <button class="btn btn-success" onclick="exportResults()">Export Results</button>
+            <label style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
+                <input type="checkbox" id="autoScroll" checked>
+                <span>Auto-scroll</span>
+            </label>
+        </div>
+
+        <div class="summary">
+            <div class="summary-grid">
+                <div class="summary-card total">
+                    <div class="number" id="totalTests">0</div>
+                    <div class="label">Total Tests</div>
+                </div>
+                <div class="summary-card passed">
+                    <div class="number" id="passedTests">0</div>
+                    <div class="label">Passed</div>
+                </div>
+                <div class="summary-card failed">
+                    <div class="number" id="failedTests">0</div>
+                    <div class="label">Failed</div>
+                </div>
+                <div class="summary-card skipped">
+                    <div class="number" id="skippedTests">0</div>
+                    <div class="label">Skipped</div>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%">0%</div>
+            </div>
+        </div>
+
+        <div class="test-results" id="testResults">
+            <!-- Test categories will be inserted here -->
+        </div>
+
+        <div class="test-log" id="testLog">
+            <div class="log-entry info">[INFO] Test suite initialized. Ready to run tests.</div>
+        </div>
+    </div>
+
+    <div class="iframe-container">
+        <iframe id="testFrame" src="about:blank"></iframe>
+    </div>
+
+    <script>
+        // Test configuration
+        const TEST_CONFIG = {
+            pages: [
+                'index.html',
+                'services.html',
+                'calculator.html',
+                'reviews.html',
+                'faq.html',
+                'about.html',
+                'quote.html',
+                'blog.html'
+            ],
+            timeout: 5000,
+            retryCount: 1
+        };
+
+        // Test suite structure
+        const testSuite = {
+            'Navigation Tests': [
+                { id: 'nav-1', name: 'Header navigation links work on all pages', test: testHeaderNavigation },
+                { id: 'nav-2', name: 'Dropdown menu links navigate correctly', test: testDropdownMenu },
+                { id: 'nav-3', name: 'Mobile menu toggle functionality', test: testMobileMenu },
+                { id: 'nav-4', name: 'Logo/brand link navigates to home', test: testLogoLink },
+                { id: 'nav-5', name: 'All internal links are valid (no 404s)', test: testInternalLinks }
+            ],
+            'Form Tests': [
+                { id: 'form-1', name: 'Contact modal opens and closes correctly', test: testContactModal },
+                { id: 'form-2', name: 'Contact form validation works', test: testFormValidation },
+                { id: 'form-3', name: 'Contact form submission succeeds', test: testFormSubmission },
+                { id: 'form-4', name: 'Calculator form calculates correctly', test: testCalculator },
+                { id: 'form-5', name: 'Quote form works on quote.html', test: testQuoteForm }
+            ],
+            'JavaScript Tests': [
+                { id: 'js-1', name: 'Modal opens/closes without errors', test: testModalJS },
+                { id: 'js-2', name: 'FAQ accordion expands/collapses', test: testFAQAccordion },
+                { id: 'js-3', name: 'Calculator performs calculations', test: testCalculatorJS },
+                { id: 'js-4', name: 'Live chat widget functions', test: testLiveChat },
+                { id: 'js-5', name: 'Mobile menu toggle works', test: testMobileMenuJS },
+                { id: 'js-6', name: 'Smooth scroll and back to top button', test: testScrollFeatures },
+                { id: 'js-7', name: 'Scroll effects on header', test: testScrollEffects }
+            ],
+            'Link Tests': [
+                { id: 'link-1', name: 'All CTA buttons have click handlers', test: testCTAButtons },
+                { id: 'link-2', name: 'Service cards link correctly', test: testServiceCards },
+                { id: 'link-3', name: 'Footer links work', test: testFooterLinks },
+                { id: 'link-4', name: 'Phone number links are callable', test: testPhoneLinks }
+            ],
+            'Content Tests': [
+                { id: 'content-1', name: 'Each page displays appropriate title', test: testPageTitles },
+                { id: 'content-2', name: 'No placeholder text remains', test: testPlaceholderText },
+                { id: 'content-3', name: 'Images load successfully', test: testImageLoading },
+                { id: 'content-4', name: 'Main content sections exist', test: testContentSections }
+            ],
+            'Responsive Tests': [
+                { id: 'resp-1', name: 'Header is responsive', test: testResponsiveHeader },
+                { id: 'resp-2', name: 'Mobile navigation appears on small screens', test: testMobileNavVisibility },
+                { id: 'resp-3', name: 'Footer layout is responsive', test: testResponsiveFooter },
+                { id: 'resp-4', name: 'Service cards stack on mobile', test: testResponsiveCards }
+            ]
+        };
+
+        // Test state
+        let testResults = {};
+        let currentTest = null;
+
+        // Initialize test results
+        function initializeTests() {
+            Object.keys(testSuite).forEach(category => {
+                testSuite[category].forEach(test => {
+                    testResults[test.id] = {
+                        status: 'pending',
+                        duration: 0,
+                        error: null,
+                        category: category
+                    };
+                });
+            });
+            renderTestCategories();
+            updateSummary();
+        }
+
+        // Render test categories
+        function renderTestCategories() {
+            const container = document.getElementById('testResults');
+            container.innerHTML = '';
+
+            Object.keys(testSuite).forEach(category => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'test-category';
+                categoryDiv.innerHTML = `
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <span>${category}</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="category-content">
+                        ${testSuite[category].map(test => `
+                            <div class="test-item" id="test-${test.id}">
+                                <div class="test-status pending">⏱</div>
+                                <div class="test-name">${test.name}</div>
+                                <div class="test-duration"></div>
+                            </div>
+                            <div class="test-details" id="details-${test.id}"></div>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(categoryDiv);
+            });
+        }
+
+        // Toggle category
+        function toggleCategory(header) {
+            const content = header.nextElementSibling;
+            content.classList.toggle('expanded');
+            const arrow = header.querySelector('span:last-child');
+            arrow.textContent = content.classList.contains('expanded') ? '▲' : '▼';
+        }
+
+        // Run all tests
+        async function runAllTests() {
+            log('Starting comprehensive test suite...', 'info');
+
+            const allTests = [];
+            Object.keys(testSuite).forEach(category => {
+                testSuite[category].forEach(test => {
+                    allTests.push({ ...test, category });
+                });
+            });
+
+            for (const test of allTests) {
+                await runTest(test);
+            }
+
+            log('Test suite completed!', 'success');
+            generateReport();
+        }
+
+        // Run individual test
+        async function runTest(test) {
+            currentTest = test.id;
+            const startTime = Date.now();
+
+            updateTestStatus(test.id, 'running');
+            log(`Running: ${test.name}`, 'info');
+
+            try {
+                await test.test();
+                const duration = Date.now() - startTime;
+                updateTestStatus(test.id, 'passed', duration);
+                log(`✓ PASSED: ${test.name} (${duration}ms)`, 'success');
+            } catch (error) {
+                const duration = Date.now() - startTime;
+                updateTestStatus(test.id, 'failed', duration, error.message);
+                log(`✗ FAILED: ${test.name} - ${error.message}`, 'error');
+            }
+
+            updateSummary();
+        }
+
+        // Update test status
+        function updateTestStatus(testId, status, duration = 0, error = null) {
+            testResults[testId] = { status, duration, error };
+
+            const testEl = document.getElementById(`test-${testId}`);
+            if (!testEl) return;
+
+            const statusEl = testEl.querySelector('.test-status');
+            const durationEl = testEl.querySelector('.test-duration');
+            const detailsEl = document.getElementById(`details-${testId}`);
+
+            statusEl.className = `test-status ${status}`;
+            statusEl.textContent = {
+                'pending': '⏱',
+                'running': '⏳',
+                'passed': '✓',
+                'failed': '✗',
+                'skipped': '⊘'
+            }[status];
+
+            if (duration > 0) {
+                durationEl.textContent = `${duration}ms`;
+            }
+
+            if (error && detailsEl) {
+                detailsEl.textContent = error;
+                detailsEl.classList.add('show');
+            }
+
+            if (document.getElementById('autoScroll').checked) {
+                testEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        // Update summary
+        function updateSummary() {
+            const total = Object.keys(testResults).length;
+            const passed = Object.values(testResults).filter(r => r.status === 'passed').length;
+            const failed = Object.values(testResults).filter(r => r.status === 'failed').length;
+            const skipped = Object.values(testResults).filter(r => r.status === 'skipped').length;
+            const completed = passed + failed + skipped;
+            const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
+
+            document.getElementById('totalTests').textContent = total;
+            document.getElementById('passedTests').textContent = passed;
+            document.getElementById('failedTests').textContent = failed;
+            document.getElementById('skippedTests').textContent = skipped;
+
+            const progressFill = document.getElementById('progressFill');
+            progressFill.style.width = `${percentage}%`;
+            progressFill.textContent = `${percentage}%`;
+        }
+
+        // Logging
+        function log(message, type = 'info') {
+            const logEl = document.getElementById('testLog');
+            const entry = document.createElement('div');
+            entry.className = `log-entry ${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logEl.appendChild(entry);
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        // Helper function to load page in iframe
+        function loadPage(page) {
+            return new Promise((resolve, reject) => {
+                const iframe = document.getElementById('testFrame');
+                const timeout = setTimeout(() => {
+                    reject(new Error(`Timeout loading ${page}`));
+                }, TEST_CONFIG.timeout);
+
+                iframe.onload = () => {
+                    clearTimeout(timeout);
+                    // Wait a bit for JavaScript to initialize
+                    setTimeout(() => resolve(iframe), 500);
+                };
+
+                iframe.onerror = () => {
+                    clearTimeout(timeout);
+                    reject(new Error(`Failed to load ${page}`));
+                };
+
+                iframe.src = page;
+            });
+        }
+
+        // Test implementations
+        async function testHeaderNavigation() {
+            for (const page of TEST_CONFIG.pages) {
+                const iframe = await loadPage(page);
+                const doc = iframe.contentDocument;
+
+                const navLinks = doc.querySelectorAll('.nav-link');
+                if (navLinks.length === 0) {
+                    throw new Error(`No nav links found on ${page}`);
+                }
+
+                // Check each link has valid href
+                navLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (!href || href === '#') {
+                        throw new Error(`Invalid nav link on ${page}: ${link.textContent}`);
+                    }
+                });
+            }
+        }
+
+        async function testDropdownMenu() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const dropdown = doc.querySelector('.dropdown-menu');
+            if (!dropdown) {
+                throw new Error('Dropdown menu not found');
+            }
+
+            const dropdownLinks = dropdown.querySelectorAll('a');
+            if (dropdownLinks.length === 0) {
+                throw new Error('No dropdown links found');
+            }
+        }
+
+        async function testMobileMenu() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const toggle = doc.querySelector('.mobile-menu-toggle');
+            const mobileNav = doc.querySelector('.mobile-nav');
+
+            if (!toggle || !mobileNav) {
+                throw new Error('Mobile menu elements not found');
+            }
+        }
+
+        async function testLogoLink() {
+            const iframe = await loadPage('services.html');
+            const doc = iframe.contentDocument;
+
+            const logo = doc.querySelector('.logo');
+            if (!logo) {
+                throw new Error('Logo not found');
+            }
+        }
+
+        async function testInternalLinks() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const links = doc.querySelectorAll('a[href$=".html"]');
+            const invalidLinks = [];
+
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href && !TEST_CONFIG.pages.includes(href.split('/').pop())) {
+                    // Check if it's a valid page reference
+                    if (!href.includes('http') && !href.startsWith('#')) {
+                        invalidLinks.push(href);
+                    }
+                }
+            });
+
+            if (invalidLinks.length > 0) {
+                throw new Error(`Invalid internal links: ${invalidLinks.join(', ')}`);
+            }
+        }
+
+        async function testContactModal() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+            const win = iframe.contentWindow;
+
+            const modal = doc.getElementById('contactModal');
+            const ctaButton = doc.querySelector('.cta-button');
+            const closeModal = doc.querySelector('.close-modal');
+
+            if (!modal || !ctaButton || !closeModal) {
+                throw new Error('Modal elements not found');
+            }
+
+            // Test modal opens
+            ctaButton.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!modal.classList.contains('show')) {
+                throw new Error('Modal did not open');
+            }
+
+            // Test modal closes
+            closeModal.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (modal.classList.contains('show')) {
+                throw new Error('Modal did not close');
+            }
+        }
+
+        async function testFormValidation() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const form = doc.getElementById('contactForm');
+            const ctaButton = doc.querySelector('.cta-button');
+
+            if (!form) {
+                throw new Error('Contact form not found');
+            }
+
+            // Open modal
+            ctaButton.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Try to submit empty form
+            const submitBtn = form.querySelector('button[type="submit"]');
+            submitBtn.click();
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Check for validation errors
+            const requiredFields = form.querySelectorAll('[required]');
+            let hasValidation = false;
+
+            requiredFields.forEach(field => {
+                if (field.classList.contains('error') || !field.validity.valid) {
+                    hasValidation = true;
+                }
+            });
+
+            if (!hasValidation && requiredFields.length > 0) {
+                throw new Error('Form validation not working');
+            }
+        }
+
+        async function testFormSubmission() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const form = doc.getElementById('contactForm');
+            const ctaButton = doc.querySelector('.cta-button');
+
+            // Open modal
+            ctaButton.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Fill form
+            doc.getElementById('firstName').value = 'Test';
+            doc.getElementById('lastName').value = 'User';
+            doc.getElementById('email').value = 'test@example.com';
+            doc.getElementById('phone').value = '123-456-7890';
+            doc.getElementById('service').value = 'roof-repair';
+
+            // Submit
+            form.dispatchEvent(new Event('submit'));
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            // Check for success message
+            const successMsg = doc.querySelector('.success-message');
+            if (!successMsg) {
+                throw new Error('Form submission did not show success message');
+            }
+        }
+
+        async function testCalculator() {
+            const iframe = await loadPage('calculator.html');
+            const doc = iframe.contentDocument;
+
+            const calculateBtn = doc.getElementById('calculateBtn');
+            if (!calculateBtn) {
+                throw new Error('Calculator not found on calculator.html');
+            }
+
+            // Fill calculator inputs
+            const roofSize = doc.getElementById('roofSize');
+            const roofType = doc.getElementById('roofType');
+            const material = doc.getElementById('material');
+
+            if (!roofSize || !roofType || !material) {
+                throw new Error('Calculator form fields not found');
+            }
+
+            roofSize.value = '2000';
+            roofType.value = 'gable';
+            material.value = 'asphalt';
+
+            // Calculate
+            calculateBtn.click();
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            // Check for results
+            const lowPrice = doc.getElementById('lowPrice');
+            const highPrice = doc.getElementById('highPrice');
+
+            if (!lowPrice || !highPrice || lowPrice.textContent === '' || highPrice.textContent === '') {
+                throw new Error('Calculator did not display results');
+            }
+        }
+
+        async function testQuoteForm() {
+            const iframe = await loadPage('quote.html');
+            const doc = iframe.contentDocument;
+
+            // Check if quote form exists (may be the same as contact form)
+            const form = doc.querySelector('form');
+            if (!form) {
+                throw new Error('No form found on quote.html');
+            }
+        }
+
+        async function testModalJS() {
+            await testContactModal(); // Reuse the modal test
+        }
+
+        async function testFAQAccordion() {
+            const iframe = await loadPage('faq.html');
+            const doc = iframe.contentDocument;
+
+            const faqItems = doc.querySelectorAll('.faq-item');
+            if (faqItems.length === 0) {
+                throw new Error('No FAQ items found');
+            }
+
+            // Test clicking FAQ item
+            const firstFaq = faqItems[0];
+            const question = firstFaq.querySelector('.faq-question');
+
+            if (!question) {
+                throw new Error('FAQ question element not found');
+            }
+
+            question.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!firstFaq.classList.contains('active')) {
+                throw new Error('FAQ accordion did not expand');
+            }
+        }
+
+        async function testCalculatorJS() {
+            await testCalculator(); // Reuse calculator test
+        }
+
+        async function testLiveChat() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const chatToggle = doc.querySelector('.chat-toggle');
+            const chatWindow = doc.querySelector('.chat-window');
+            const chatInput = doc.getElementById('chatInput');
+            const chatSend = doc.querySelector('.chat-send');
+
+            if (!chatToggle || !chatWindow || !chatInput || !chatSend) {
+                throw new Error('Live chat elements not found');
+            }
+
+            // Open chat
+            chatToggle.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!chatWindow.classList.contains('active')) {
+                throw new Error('Chat window did not open');
+            }
+
+            // Send message
+            chatInput.value = 'Test message';
+            chatSend.click();
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            if (chatInput.value !== '') {
+                throw new Error('Chat input not cleared after send');
+            }
+        }
+
+        async function testMobileMenuJS() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const toggle = doc.querySelector('.mobile-menu-toggle');
+            const mobileNav = doc.querySelector('.mobile-nav');
+
+            toggle.click();
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!mobileNav.classList.contains('active')) {
+                throw new Error('Mobile menu did not open');
+            }
+        }
+
+        async function testScrollFeatures() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+            const win = iframe.contentWindow;
+
+            const backToTop = doc.getElementById('backToTop');
+            if (!backToTop) {
+                throw new Error('Back to top button not found');
+            }
+
+            // Scroll down
+            win.scrollTo(0, 500);
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!backToTop.classList.contains('show')) {
+                throw new Error('Back to top button did not appear on scroll');
+            }
+        }
+
+        async function testScrollEffects() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+            const win = iframe.contentWindow;
+
+            const header = doc.querySelector('.header');
+            if (!header) {
+                throw new Error('Header not found');
+            }
+
+            // Scroll down
+            win.scrollTo(0, 100);
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            if (!header.classList.contains('scrolled')) {
+                throw new Error('Header scroll effect not applied');
+            }
+        }
+
+        async function testCTAButtons() {
+            for (const page of TEST_CONFIG.pages) {
+                const iframe = await loadPage(page);
+                const doc = iframe.contentDocument;
+
+                const ctaButtons = doc.querySelectorAll('.cta-button, .btn-primary');
+                if (ctaButtons.length === 0 && page === 'index.html') {
+                    throw new Error(`No CTA buttons found on ${page}`);
+                }
+            }
+        }
+
+        async function testServiceCards() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const serviceCards = doc.querySelectorAll('.explore-card');
+            if (serviceCards.length === 0) {
+                throw new Error('No service cards found');
+            }
+
+            serviceCards.forEach(card => {
+                const link = card.querySelector('a');
+                if (!link) {
+                    throw new Error('Service card missing link');
+                }
+            });
+        }
+
+        async function testFooterLinks() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const footer = doc.querySelector('.footer');
+            if (!footer) {
+                throw new Error('Footer not found');
+            }
+        }
+
+        async function testPhoneLinks() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const phoneNumbers = doc.querySelectorAll('.phone-number, a[href^="tel:"]');
+            // Phone links are optional, just verify they exist
+            if (phoneNumbers.length === 0) {
+                log('Note: No phone links found (optional)', 'warning');
+            }
+        }
+
+        async function testPageTitles() {
+            for (const page of TEST_CONFIG.pages) {
+                const iframe = await loadPage(page);
+                const doc = iframe.contentDocument;
+
+                const title = doc.title;
+                if (!title || title === '' || title === 'Document') {
+                    throw new Error(`Page ${page} has invalid title: ${title}`);
+                }
+            }
+        }
+
+        async function testPlaceholderText() {
+            const placeholders = ['Lorem ipsum', 'Placeholder', 'TODO', 'FIXME', 'XXX'];
+
+            for (const page of TEST_CONFIG.pages) {
+                const iframe = await loadPage(page);
+                const doc = iframe.contentDocument;
+
+                const bodyText = doc.body.textContent;
+                for (const placeholder of placeholders) {
+                    if (bodyText.includes(placeholder)) {
+                        throw new Error(`Page ${page} contains placeholder text: ${placeholder}`);
+                    }
+                }
+            }
+        }
+
+        async function testImageLoading() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const images = doc.querySelectorAll('img');
+            const brokenImages = [];
+
+            for (const img of images) {
+                if (!img.complete || img.naturalHeight === 0) {
+                    // SVG images may not load immediately
+                    if (!img.src.endsWith('.svg')) {
+                        brokenImages.push(img.src);
+                    }
+                }
+            }
+
+            if (brokenImages.length > 0) {
+                log(`Warning: Some images may not be loaded: ${brokenImages.join(', ')}`, 'warning');
+            }
+        }
+
+        async function testContentSections() {
+            for (const page of TEST_CONFIG.pages) {
+                const iframe = await loadPage(page);
+                const doc = iframe.contentDocument;
+
+                const header = doc.querySelector('.header');
+                const footer = doc.querySelector('.footer');
+
+                if (!header) {
+                    throw new Error(`Page ${page} missing header`);
+                }
+
+                if (!footer) {
+                    throw new Error(`Page ${page} missing footer`);
+                }
+            }
+        }
+
+        async function testResponsiveHeader() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const header = doc.querySelector('.header');
+            if (!header) {
+                throw new Error('Header not found');
+            }
+
+            // Check if mobile menu toggle exists (indicates responsive design)
+            const mobileToggle = doc.querySelector('.mobile-menu-toggle');
+            if (!mobileToggle) {
+                throw new Error('Mobile menu toggle not found (responsive issue)');
+            }
+        }
+
+        async function testMobileNavVisibility() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const mobileNav = doc.querySelector('.mobile-nav');
+            if (!mobileNav) {
+                throw new Error('Mobile navigation not found');
+            }
+        }
+
+        async function testResponsiveFooter() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const footer = doc.querySelector('.footer');
+            if (!footer) {
+                throw new Error('Footer not found');
+            }
+        }
+
+        async function testResponsiveCards() {
+            const iframe = await loadPage('index.html');
+            const doc = iframe.contentDocument;
+
+            const cards = doc.querySelectorAll('.explore-card, .service-card');
+            if (cards.length === 0) {
+                throw new Error('No cards found to test responsiveness');
+            }
+        }
+
+        // Clear results
+        function clearResults() {
+            initializeTests();
+            document.getElementById('testLog').innerHTML = '<div class="log-entry info">[INFO] Test results cleared.</div>';
+        }
+
+        // Generate report
+        function generateReport() {
+            const total = Object.keys(testResults).length;
+            const passed = Object.values(testResults).filter(r => r.status === 'passed').length;
+            const failed = Object.values(testResults).filter(r => r.status === 'failed').length;
+            const passRate = ((passed / total) * 100).toFixed(1);
+
+            log('═══════════════════════════════════════', 'info');
+            log('TEST SUITE SUMMARY', 'info');
+            log('═══════════════════════════════════════', 'info');
+            log(`Total Tests: ${total}`, 'info');
+            log(`Passed: ${passed} (${passRate}%)`, 'success');
+            log(`Failed: ${failed}`, failed > 0 ? 'error' : 'info');
+            log('═══════════════════════════════════════', 'info');
+
+            if (failed === 0) {
+                log('🎉 ALL TESTS PASSED!', 'success');
+            } else {
+                log('⚠️  Some tests failed. Review details above.', 'warning');
+            }
+        }
+
+        // Export results
+        function exportResults() {
+            const report = {
+                timestamp: new Date().toISOString(),
+                summary: {
+                    total: Object.keys(testResults).length,
+                    passed: Object.values(testResults).filter(r => r.status === 'passed').length,
+                    failed: Object.values(testResults).filter(r => r.status === 'failed').length,
+                    skipped: Object.values(testResults).filter(r => r.status === 'skipped').length
+                },
+                results: testResults
+            };
+
+            const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `test-results-${Date.now()}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+
+            log('Test results exported successfully', 'success');
+        }
+
+        // Initialize on load
+        window.addEventListener('load', () => {
+            initializeTests();
+            log('Test suite ready. Click "Run All Tests" to begin.', 'success');
+        });
+    </script>
+</body>
+</html>

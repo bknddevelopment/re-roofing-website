@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access all content
+Disallow:
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://www.reroofing.com/sitemap.xml
+
+# Crawl delay (optional - be respectful to crawlers)
+Crawl-delay: 1

@@ -1,0 +1,40 @@
+VIDEO BACKGROUND REQUIREMENTS FOR R&E ROOFING WEBSITE
+======================================================
+
+HERO SECTION VIDEO:
+-------------------
+File Name: roofing-background.mp4
+Duration: 15-30 seconds (looping)
+Resolution: 1920x1080 (Full HD) minimum
+Format: MP4 with H.264 codec
+File Size: Keep under 10MB for fast loading
+
+RECOMMENDED VIDEO CONTENT:
+--------------------------
+1. Aerial drone footage of rooftops
+2. Time-lapse of roofing installation
+3. Professional roofers at work
+4. Beautiful finished roofing projects
+5. Suburban neighborhood aerial views
+
+CURRENT SETUP:
+-------------
+The website is currently using a free stock video from Coverr.co showing aerial suburban rooftops.
+To use your own video, simply:
+1. Place your video file in this /videos/ folder
+2. Name it "roofing-background.mp4"
+3. The website will automatically use your video
+
+FALLBACK OPTIONS:
+----------------
+- Mobile devices will show a static image instead of video
+- Slow connections will load the image first, then the video
+
+FREE VIDEO SOURCES:
+------------------
+1. Coverr.co - https://coverr.co (currently using)
+2. Pexels Videos - https://www.pexels.com/videos/
+3. Videvo - https://www.videvo.net/
+4. Mixkit - https://mixkit.co/free-stock-video/
+
+Search for: "roofing", "construction", "aerial", "suburban", "houses"
