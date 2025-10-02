@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initCalculator();
     initLiveChat();
     initBackToTop();
+    initCookieConsent();
 });
 
 // Smooth scrolling for anchor links
@@ -368,7 +369,12 @@ function initCalculator() {
 
         // Add roofing cost
         const roofingItem = document.createElement('li');
-        roofingItem.innerHTML = `<span>Roofing (${roofSize} sq ft)</span><span>$${Math.round(roofSize * baseCost.low).toLocaleString()} - $${Math.round(roofSize * baseCost.high).toLocaleString()}</span>`;
+        const roofingLabel = document.createElement('span');
+        roofingLabel.textContent = `Roofing (${roofSize} sq ft)`;
+        const roofingPrice = document.createElement('span');
+        roofingPrice.textContent = `$${Math.round(roofSize * baseCost.low).toLocaleString()} - $${Math.round(roofSize * baseCost.high).toLocaleString()}`;
+        roofingItem.appendChild(roofingLabel);
+        roofingItem.appendChild(roofingPrice);
         breakdownList.appendChild(roofingItem);
 
         // Add tear-off if needed
@@ -376,14 +382,24 @@ function initCalculator() {
             const tearOffItem = document.createElement('li');
             const tearOffLow = layers === '2' ? roofSize * 1 : roofSize * 2;
             const tearOffHigh = layers === '2' ? roofSize * 2 : roofSize * 3.5;
-            tearOffItem.innerHTML = `<span>Tear-off (${layers === '2' ? '1' : 'Multiple'} layer${layers === '2' ? '' : 's'})</span><span>$${Math.round(tearOffLow).toLocaleString()} - $${Math.round(tearOffHigh).toLocaleString()}</span>`;
+            const tearOffLabel = document.createElement('span');
+            tearOffLabel.textContent = `Tear-off (${layers === '2' ? '1' : 'Multiple'} layer${layers === '2' ? '' : 's'})`;
+            const tearOffPrice = document.createElement('span');
+            tearOffPrice.textContent = `$${Math.round(tearOffLow).toLocaleString()} - $${Math.round(tearOffHigh).toLocaleString()}`;
+            tearOffItem.appendChild(tearOffLabel);
+            tearOffItem.appendChild(tearOffPrice);
             breakdownList.appendChild(tearOffItem);
         }
 
         // Add additional services
         additionalServices.forEach(service => {
             const serviceItem = document.createElement('li');
-            serviceItem.innerHTML = `<span>${service.name}</span><span>$${service.low.toLocaleString()} - $${service.high.toLocaleString()}</span>`;
+            const serviceLabel = document.createElement('span');
+            serviceLabel.textContent = service.name;
+            const servicePrice = document.createElement('span');
+            servicePrice.textContent = `$${service.low.toLocaleString()} - $${service.high.toLocaleString()}`;
+            serviceItem.appendChild(serviceLabel);
+            serviceItem.appendChild(servicePrice);
             breakdownList.appendChild(serviceItem);
         });
 
@@ -428,7 +444,9 @@ function initLiveChat() {
         // Add user message
         const userMessage = document.createElement('div');
         userMessage.className = 'chat-message user';
-        userMessage.innerHTML = `<p>${message}</p>`;
+        const userParagraph = document.createElement('p');
+        userParagraph.textContent = message;
+        userMessage.appendChild(userParagraph);
         chatBody.appendChild(userMessage);
 
         // Clear input
@@ -458,7 +476,9 @@ function initLiveChat() {
                 response = 'Thank you for your message! One of our roofing experts will get back to you shortly. For immediate assistance, call (862) 224-6666.';
             }
 
-            botMessage.innerHTML = `<p>${response}</p>`;
+            const botParagraph = document.createElement('p');
+            botParagraph.textContent = response;
+            botMessage.appendChild(botParagraph);
             chatBody.appendChild(botMessage);
             chatBody.scrollTop = chatBody.scrollHeight;
         }, 1000);
@@ -494,4 +514,26 @@ function initBackToTop() {
             behavior: 'smooth'
         });
     });
+}
+
+// Cookie Consent (GDPR/ePrivacy Compliance)
+function initCookieConsent() {
+    const cookieBanner = document.getElementById('cookieConsent');
+
+    if (!cookieBanner) return;
+
+    // Check if user has already accepted cookies
+    if (!localStorage.getItem('cookieConsent')) {
+        cookieBanner.style.display = 'block';
+    }
+}
+
+// Accept cookies function (called from HTML button)
+function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'true');
+    localStorage.setItem('cookieConsentDate', new Date().toISOString());
+    const cookieBanner = document.getElementById('cookieConsent');
+    if (cookieBanner) {
+        cookieBanner.style.display = 'none';
+    }
 }

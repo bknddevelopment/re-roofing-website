@@ -6,9 +6,7 @@
     <title>Siding Repair in Belleville, NJ | R&E Roofing | Licensed & Insured</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Expert siding repair services in Belleville, NJ. 25+ years serving Essex County. Licensed & insured. Free estimates. Emergency services available. Call (667) 204-1609.">
-    <meta name="keywords" content="siding-repair belleville, belleville siding-repair, siding-repair belleville nj, siding-repair contractor belleville, emergency siding-repair belleville">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Expert siding repair services in Belleville, NJ. 25+ years serving Essex County. Licensed & insured. Free estimates. Emergency services available. Call (667) 204-1609.">    <meta name="robots" content="index, follow">
     <meta name="author" content="R&E Roofing">
 
     <!-- Open Graph Meta Tags -->
@@ -86,7 +84,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght=800&family=Overpass:wght=400;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -148,6 +146,13 @@
                         <label><input type="radio" name="contact-method" value="text"> Text</label>
                     </div>
                 </div>
+                <div class="form-group consent-group">
+                    <input type="checkbox" id="gdprConsent" name="gdprConsent" required>
+                    <label for="gdprConsent">
+                        I agree to the <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+                        and consent to my data being processed for the purpose of this inquiry.
+                    </label>
+                </div>
                 <button type="submit" class="btn-primary submit-btn">Get My Free Quote</button>
                 <p class="form-disclaimer">*We respect your privacy and will never share your information.</p>
             </form>
@@ -159,7 +164,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>R&E ROOFING</h1>
+                    <img src="images/logo.png" alt="R&E Roofing" class="logo-img">
                 </div>
 
                 <!-- Navigation Menu -->
@@ -186,6 +191,11 @@
                         <span>(667) 204-1609</span>
                     </div>
                     <button class="cta-button">Get Free Quote</button>
+
+                    <!-- Mobile Phone Icon (visible only on mobile) -->
+                    <a href="tel:6672041609" class="mobile-phone-icon" aria-label="Call R&E Roofing">
+                        <i class="fas fa-phone"></i>
+                    </a>
 
                     <!-- Mobile Menu Toggle -->
                     <button class="mobile-menu-toggle" aria-label="Toggle Menu">
@@ -512,38 +522,20 @@
             </div>
 
             <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="privacy-policy.html">Privacy Policy</a> |
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
                 <p>&copy; 2024 R&E Roofing. All rights reserved. | Serving Essex County, NJ</p>
             </div>
         </div>
     </footer>
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
-
-    <!-- Live Chat Widget -->
-    <div id="liveChat" class="live-chat">
-        <button class="chat-toggle" aria-label="Open chat">
-            <i class="fas fa-comment-dots"></i>
-            <span class="chat-badge">1</span>
-        </button>
-
-        <div class="chat-window">
-            <div class="chat-header">
-                <h4>Live Support</h4>
-                <button class="chat-close" aria-label="Close chat">×</button>
-            </div>
-            <div class="chat-body">
-                <div class="chat-message bot">
-                    <p>👋 Hi! How can we help you with your siding repair needs in Belleville today?</p>
-                </div>
-            </div>
-            <div class="chat-footer">
-                <input type="text" id="chatInput" placeholder="Type your message...">
-                <button class="chat-send" aria-label="Send message">
-                    <i class="fas fa-paper-plane"></i>
-                </button>
-            </div>
-        </div>
+    <script src="js/main.js"></script>    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent" style="display:none;">
+        <p>We use cookies to improve your experience. By continuing, you accept our <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+        <button onclick="acceptCookies()">Accept</button>
     </div>
 
     <!-- Back to Top Button -->

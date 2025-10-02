@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | R&E Roofing</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="R&E Roofing Terms of Service. Review our terms and conditions for using our website and services.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://reroofing.com/terms-of-service.html">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght=800&family=Overpass:wght=400;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .terms-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.8;
+        }
+        .terms-content h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .terms-content h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #000;
+            border-bottom: 2px solid #FF6B35;
+            padding-bottom: 10px;
+        }
+        .terms-content h3 {
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .terms-content p, .terms-content ul {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .terms-content ul {
+            padding-left: 25px;
+        }
+        .terms-content li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #777;
+            margin-bottom: 30px;
+        }
+        .contact-info-box {
+            background: #f9f9f9;
+            border-left: 4px solid #FF6B35;
+            padding: 20px;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Get Your Free Roofing Quote</h2>
+            <p>Fill out the form below and we'll get back to you within 24 hours</p>
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Needed*</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="roof-repair">Roof Repair</option>
+                        <option value="roof-replacement">Roof Replacement</option>
+                        <option value="new-construction">New Construction</option>
+                        <option value="siding">Siding Installation</option>
+                        <option value="gutters">Gutter Installation</option>
+                        <option value="emergency">Emergency Repair</option>
+                        <option value="inspection">Inspection</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Property Address</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Please describe your project or any specific concerns..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="preferred-contact">Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact-method" value="phone" checked> Phone</label>
+                        <label><input type="radio" name="contact-method" value="email"> Email</label>
+                        <label><input type="radio" name="contact-method" value="text"> Text</label>
+                    </div>
+                </div>
+                <div class="form-group consent-group">
+                    <input type="checkbox" id="gdprConsent" name="gdprConsent" required>
+                    <label for="gdprConsent">
+                        I agree to the <a href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+                        and consent to my data being processed for the purpose of this inquiry.
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary submit-btn">Get My Free Quote</button>
+                <p class="form-disclaimer">*We respect your privacy and will never share your information.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="R&E Roofing" class="logo-img">
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="has-dropdown">
+                            <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html">All Services</a></li>
+                                <li><a href="calculator.html">Get Quote</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-right">
+                    <div class="phone-number">
+                        <i class="fas fa-phone"></i>
+                        <span>(667) 204-1609</span>
+                    </div>
+                    <button class="cta-button">Get Free Quote</button>
+
+                    <!-- Mobile Phone Icon (visible only on mobile) -->
+                    <a href="tel:6672041609" class="mobile-phone-icon" aria-label="Call R&E Roofing">
+                        <i class="fas fa-phone"></i>
+                    </a>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li>
+                    <a href="services.html" class="mobile-nav-link has-submenu">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="mobile-submenu">
+                        <li><a href="services.html">All Services</a></li>
+                        <li><a href="calculator.html">Get Quote</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html" class="mobile-nav-link">About</a></li>
+                <li><a href="reviews.html" class="mobile-nav-link">Reviews</a></li>
+                <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+                <li class="mobile-cta">
+                    <button class="cta-button mobile-quote-btn">Get Free Quote</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Terms Content -->
+    <div class="terms-content">
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: October 2, 2025</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing and using the R&E Roofing website ("Site"), you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use this Site.</p>
+
+        <h2>2. Services</h2>
+        <p>R&E Roofing provides professional roofing, siding, and gutter services across Essex County, New Jersey. Information on this Site is for general informational purposes only.</p>
+
+        <h3>2.1 Estimates and Quotes</h3>
+        <ul>
+            <li>Online estimates are approximate and non-binding</li>
+            <li>Final pricing requires on-site inspection</li>
+            <li>Quotes are valid for 30 days unless otherwise specified</li>
+            <li>Actual costs may vary based on site conditions and material availability</li>
+        </ul>
+
+        <h2>3. Use of Website</h2>
+        <p>You agree to use this Site only for lawful purposes and in accordance with these Terms. You may not:</p>
+        <ul>
+            <li>Use the Site in any way that violates applicable laws or regulations</li>
+            <li>Attempt to gain unauthorized access to any portion of the Site</li>
+            <li>Interfere with or disrupt the Site or servers connected to the Site</li>
+            <li>Use automated tools to access, scrape, or collect data from the Site</li>
+        </ul>
+
+        <h2>4. Intellectual Property</h2>
+        <p>All content on this Site, including text, graphics, logos, images, and software, is the property of R&E Roofing and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works without express written permission.</p>
+
+        <h2>5. User Submissions</h2>
+        <p>By submitting information through our contact forms, quote requests, or other communication channels, you grant R&E Roofing permission to use this information to respond to your inquiry and provide requested services. We will handle your data in accordance with our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+        <h2>6. Privacy</h2>
+        <p>Your use of the Site is also governed by our Privacy Policy. Please review our <a href="privacy-policy.html">Privacy Policy</a> to understand how we collect, use, and protect your personal information.</p>
+
+        <h2>7. Third-Party Links</h2>
+        <p>This Site may contain links to third-party websites. R&E Roofing is not responsible for the content, privacy policies, or practices of third-party sites. We encourage you to review the terms and policies of any third-party sites you visit.</p>
+
+        <h2>8. Disclaimers and Limitations of Liability</h2>
+        <h3>8.1 No Warranty</h3>
+        <p>This Site is provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+
+        <h3>8.2 Limitation of Liability</h3>
+        <p>R&E Roofing shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the Site, even if we have been advised of the possibility of such damages.</p>
+
+        <h3>8.3 Service Information Accuracy</h3>
+        <p>While we strive to provide accurate information, we do not warrant that:</p>
+        <ul>
+            <li>The Site will be error-free or uninterrupted</li>
+            <li>Defects will be corrected</li>
+            <li>Information on the Site is complete, accurate, or current</li>
+            <li>Online estimates reflect final project costs</li>
+        </ul>
+
+        <h2>9. Service Contracts</h2>
+        <p>Actual roofing, siding, and gutter services are subject to separate written contracts. These Terms of Service govern only your use of the website, not contracted services. Service contracts will contain specific terms regarding:</p>
+        <ul>
+            <li>Scope of work</li>
+            <li>Pricing and payment terms</li>
+            <li>Warranties and guarantees</li>
+            <li>Project timelines</li>
+            <li>Cancellation and dispute resolution</li>
+        </ul>
+
+        <h2>10. Indemnification</h2>
+        <p>You agree to indemnify and hold harmless R&E Roofing, its officers, employees, and agents from any claims, damages, losses, or expenses (including legal fees) arising from your use of the Site or violation of these Terms.</p>
+
+        <h2>11. Modifications to Terms</h2>
+        <p>R&E Roofing reserves the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting to the Site. Your continued use of the Site after changes are posted constitutes acceptance of the modified terms.</p>
+
+        <h2>12. Termination</h2>
+        <p>We reserve the right to terminate or suspend your access to the Site at any time, without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason.</p>
+
+        <h2>13. Governing Law and Jurisdiction</h2>
+        <p>These Terms of Service are governed by the laws of the State of New Jersey, without regard to conflict of law principles. Any disputes arising from these Terms or your use of the Site shall be subject to the exclusive jurisdiction of the courts located in Essex County, New Jersey.</p>
+
+        <h2>14. Severability</h2>
+        <p>If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+
+        <h2>15. Entire Agreement</h2>
+        <p>These Terms of Service, together with our Privacy Policy, constitute the entire agreement between you and R&E Roofing regarding your use of the Site.</p>
+
+        <div class="contact-info-box">
+            <h2>Contact Information</h2>
+            <p>If you have questions about these Terms of Service, please contact us:</p>
+            <p>
+                <strong>R&E Roofing</strong><br>
+                Phone: <a href="tel:6672041609">(667) 204-1609</a><br>
+                Email: <a href="mailto:info@randeroofing.com">info@randeroofing.com</a><br>
+                Service Area: Essex County, New Jersey
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <h3>R&E ROOFING</h3>
+                    </div>
+                    <p>Your trusted roofing experts providing quality services for over 25 years.</p>
+                    <p class="footer-license">Licensed & Insured in New Jersey</p>
+                </div>
+
+                <div class="footer-middle">
+                    <div class="footer-service-areas">
+                        <h4>Service Areas</h4>
+                        <ul class="service-areas-list">
+                            <li>Newark, NJ</li>
+                            <li>East Orange, NJ</li>
+                            <li>Irvington, NJ</li>
+                            <li>Bloomfield, NJ</li>
+                            <li>West Orange, NJ</li>
+                            <li>Montclair, NJ</li>
+                            <li>Belleville, NJ</li>
+                            <li>Orange, NJ</li>
+                            <li>Livingston, NJ</li>
+                            <li>Nutley, NJ</li>
+                        </ul>
+                        <p class="all-essex">+ All of Essex County</p>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(667) 204-1609</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@randeroofing.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="privacy-policy.html">Privacy Policy</a> |
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+                <p>&copy; 2024 R&E Roofing. All rights reserved. | Serving Essex County, NJ</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent" style="display:none;">
+        <p>We use cookies to improve your experience. By continuing, you accept our <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+        <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+</body>
+</html>
