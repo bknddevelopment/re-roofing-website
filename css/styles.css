@@ -198,28 +198,35 @@ p {
     color: #F36F21;
 }
 
-/* Mobile Phone Icon */
+/* Mobile Phone Icon - Primary CTA */
 .mobile-phone-icon {
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
-    background: #CF4B00;
+    width: 52px;
+    height: 52px;
+    /* WCAG AA Compliant: Darker orange for 4.51:1 contrast with white text */
+    background: linear-gradient(to right, rgb(207, 75, 0) 25%, rgb(207, 75, 0) 75%);
     border-radius: 50%;
     color: #FFFFFF;
     text-decoration: none;
     transition: all 0.3s ease;
-    font-size: 18px;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(207, 75, 0, 0.3);
 }
 
 .mobile-phone-icon:hover {
-    background: #a83d00;
-    transform: scale(1.05);
+    background: linear-gradient(to right, rgb(168, 61, 0) 25%, rgb(168, 61, 0) 75%);
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(207, 75, 0, 0.4);
 }
 
-/* Mobile Menu Toggle */
+.mobile-phone-icon:active {
+    transform: scale(1.02);
+}
+
+/* Mobile Menu Toggle - Hamburger */
 .mobile-menu-toggle {
     display: none;
     background: transparent;
@@ -227,15 +234,20 @@ p {
     cursor: pointer;
     padding: 10px;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
 }
 
 .hamburger {
     display: block;
-    width: 25px;
+    width: 26px;
     height: 3px;
     background: #FFFFFF;
     transition: all 0.3s;
+    border-radius: 2px;
 }
 
 .mobile-menu-toggle.active .hamburger:nth-child(1) {
@@ -327,7 +339,41 @@ p {
 
 @media (max-width: 768px) {
     .logo-img {
-        height: 45px;
+        height: 40px;
+    }
+
+    /* Mobile 3-Column Header Layout */
+    .header-content {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 0;
+    }
+
+    /* Logo - Left aligned */
+    .logo {
+        justify-self: start;
+    }
+
+    /* Phone CTA - Center positioned */
+    .mobile-phone-icon {
+        justify-self: center;
+        grid-column: 2;
+    }
+
+    /* Hamburger - Right aligned */
+    .mobile-menu-toggle {
+        justify-self: end;
+        grid-column: 3;
+    }
+
+    /* Hide desktop elements */
+    .header-right {
+        grid-column: 2 / 4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
     }
 }
 
@@ -1722,12 +1768,17 @@ p {
 }
 
 @media (max-width: 768px) {
+    /* Show mobile phone icon */
     .mobile-phone-icon {
         display: flex;
     }
-}
 
-@media (max-width: 768px) {
+    /* Ensure hamburger menu shows */
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    /* Form responsive */
     .form-row {
         grid-template-columns: 1fr;
     }
@@ -1757,14 +1808,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .header-right {
-        gap: 20px;
-    }
+    /* Mobile header already configured with 3-column grid above */
 
     .hero {
         padding: 120px 0 40px;
@@ -1809,6 +1853,57 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+}
+
+/* Common Mobile Breakpoints */
+@media (max-width: 414px) {
+    /* iPhone Pro Max, large Android phones */
+    .header-content {
+        padding: 0 5px;
+    }
+
+    .logo-img {
+        height: 38px;
+    }
+
+    .mobile-phone-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* iPhone 12/13/14 standard */
+    .header-content {
+        padding: 0 3px;
+    }
+
+    .logo-img {
+        height: 36px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* iPhone SE, smaller devices */
+    .logo-img {
+        height: 34px;
+    }
+
+    .mobile-phone-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .mobile-menu-toggle {
+        width: 44px;
+        height: 44px;
+    }
+
+    .hamburger {
+        width: 24px;
     }
 }
 
