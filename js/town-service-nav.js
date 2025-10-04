@@ -155,16 +155,16 @@ function addFloatingNavStyles() {
             transform: translateY(-50%);
             background: white;
             border-radius: 16px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-            padding: 16px 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.08);
+            padding: 20px 16px;
             z-index: 900;
-            max-width: 200px;
-            transition: all 0.3s ease;
+            max-width: 220px;
+            transition: all 0.3s cubic-bezier(0.2, 0.0, 0, 1.0);
         }
 
         .floating-nav-header {
-            padding-bottom: 12px;
-            margin-bottom: 12px;
+            padding-bottom: 16px;
+            margin-bottom: 16px;
             border-bottom: 2px solid #f0f0f0;
         }
 
@@ -181,30 +181,46 @@ function addFloatingNavStyles() {
         .floating-nav-items {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 12px;
         }
 
         .floating-nav-item {
             display: flex;
             align-items: center;
-            gap: 12px;
-            padding: 10px 12px;
-            border-radius: 10px;
+            gap: 14px;
+            padding: 12px 14px;
+            border-radius: 12px;
             text-decoration: none;
             color: #333;
-            transition: all 0.2s ease;
+            transition: all 0.2s cubic-bezier(0.2, 0.0, 0, 1.0);
             background: #f8f8f8;
+            position: relative;
+            min-height: 56px;
         }
 
         .floating-nav-item:hover {
             background: #e8e8e8;
-            transform: translateX(4px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .floating-nav-item:focus {
+            outline: 2px solid #FF6B35;
+            outline-offset: 2px;
+        }
+
+        .floating-nav-item:focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        .floating-nav-item:focus-visible {
+            outline: 2px solid #FF6B35;
+            outline-offset: 2px;
         }
 
         .floating-nav-item.active {
             background: linear-gradient(135deg, #FF6B35 0%, #FF3B30 100%);
             color: white;
-            box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+            box-shadow: 0 4px 16px rgba(255, 59, 48, 0.3);
         }
 
         .floating-nav-item.active .nav-icon {
@@ -213,19 +229,23 @@ function addFloatingNavStyles() {
         }
 
         .nav-icon {
-            width: 36px;
-            height: 36px;
-            border-radius: 8px;
+            width: 44px;
+            height: 44px;
+            min-width: 44px;
+            min-height: 44px;
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            transition: all 0.2s ease;
+            transition: all 0.2s cubic-bezier(0.2, 0.0, 0, 1.0);
+            overflow: visible;
         }
 
         .nav-icon i {
-            font-size: 16px;
+            font-size: 18px;
             color: white;
+            line-height: 1;
         }
 
         .floating-nav-item.active .nav-icon i {
@@ -236,6 +256,7 @@ function addFloatingNavStyles() {
             font-size: 13px;
             font-weight: 600;
             white-space: nowrap;
+            line-height: 1.4;
         }
 
         /* Hide on mobile */
@@ -249,7 +270,18 @@ function addFloatingNavStyles() {
         @media (max-width: 1280px) {
             .floating-service-nav {
                 left: 10px;
-                max-width: 180px;
+                max-width: 200px;
+                padding: 16px 12px;
+            }
+
+            .floating-nav-items {
+                gap: 10px;
+            }
+
+            .floating-nav-item {
+                gap: 12px;
+                padding: 10px 12px;
+                min-height: 52px;
             }
 
             .nav-label {
@@ -257,12 +289,14 @@ function addFloatingNavStyles() {
             }
 
             .nav-icon {
-                width: 32px;
-                height: 32px;
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                min-height: 40px;
             }
 
             .nav-icon i {
-                font-size: 14px;
+                font-size: 16px;
             }
         }
 
