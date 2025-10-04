@@ -10,7 +10,7 @@
 
     <!-- Services Page -->
     <url>
-        <loc>https://randeroofing.com/services.html</loc>
+        <loc>https://randeroofing.com/pages/core/services.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -18,7 +18,7 @@
 
     <!-- Quote/Calculator Page -->
     <url>
-        <loc>https://randeroofing.com/calculator.html</loc>
+        <loc>https://randeroofing.com/pages/core/calculator.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -26,7 +26,7 @@
 
     <!-- Get Quote Page -->
     <url>
-        <loc>https://randeroofing.com/quote.html</loc>
+        <loc>https://randeroofing.com/pages/core/quote.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -34,7 +34,7 @@
 
     <!-- Reviews Page -->
     <url>
-        <loc>https://randeroofing.com/reviews.html</loc>
+        <loc>https://randeroofing.com/pages/core/reviews.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -42,7 +42,7 @@
 
     <!-- FAQ Page -->
     <url>
-        <loc>https://randeroofing.com/faq.html</loc>
+        <loc>https://randeroofing.com/pages/core/faq.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -50,7 +50,7 @@
 
     <!-- About Us Page -->
     <url>
-        <loc>https://randeroofing.com/about.html</loc>
+        <loc>https://randeroofing.com/pages/core/about.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -58,7 +58,7 @@
 
     <!-- Blog Page -->
     <url>
-        <loc>https://randeroofing.com/blog.html</loc>
+        <loc>https://randeroofing.com/pages/core/blog.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -74,105 +74,105 @@
 
     <!-- Town Pages -->
     <url>
-        <loc>https://randeroofing.com/roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/towns/roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -180,7 +180,7 @@
 
     <!-- Privacy Policy -->
     <url>
-        <loc>https://randeroofing.com/privacy-policy.html</loc>
+        <loc>https://randeroofing.com/pages/core/privacy-policy.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
@@ -188,98 +188,98 @@
 
     <!-- Roof Repair Service Pages -->
     <url>
-        <loc>https://randeroofing.com/roof-repair-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -287,98 +287,98 @@
 
     <!-- Emergency Roof Repair Pages - All Towns -->
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/emergency-roof-repair-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/emergency-roof-repair-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -386,119 +386,119 @@
 
     <!-- Roof Leak Repair Pages - All Towns -->
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-leak-repair-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-leak-repair-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-repair-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-repair-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -506,105 +506,105 @@
 
     <!-- Roof Replacement Service Pages -->
     <url>
-        <loc>https://randeroofing.com/roof-replacement-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/roof-replacement-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/roof-replacement-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -612,105 +612,105 @@
 
     <!-- New Roof Installation Service Pages -->
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/new-roof-installation-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/new-roof-installation-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -718,105 +718,105 @@
 
     <!-- Siding Installation Service Pages -->
     <url>
-        <loc>https://randeroofing.com/siding-installation-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-installation-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-installation-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -824,105 +824,105 @@
 
     <!-- Siding Repair Service Pages -->
     <url>
-        <loc>https://randeroofing.com/siding-repair-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/siding-repair-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/siding-repair-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -930,105 +930,105 @@
 
     <!-- Gutter Installation Service Pages -->
     <url>
-        <loc>https://randeroofing.com/gutter-installation-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-installation-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-installation-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1036,105 +1036,105 @@
 
     <!-- Gutter Repair & Cleaning Service Pages -->
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-newark-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-montclair-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-bloomfield-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-east-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-irvington-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-west-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-belleville-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-livingston-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-nutley-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-maplewood-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-millburn-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-verona-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-south-orange-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://randeroofing.com/gutter-repair-cleaning-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/gutter-repair-cleaning-cedar-grove-nj.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1142,7 +1142,7 @@
 
     <!-- Legal Pages -->
     <url>
-        <loc>https://randeroofing.com/terms-of-service.html</loc>
+        <loc>https://randeroofing.com/pages/core/terms-of-service.html</loc>
         <lastmod>2025-10-02</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
@@ -1151,91 +1151,91 @@
     <!-- Phase 2: Material-Specific Roofing Pages (75 pages) -->
     <!-- Asphalt Shingle Roofing Pages (15 towns) -->
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/asphalt-shingle-roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/asphalt-shingle-roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -1243,91 +1243,91 @@
 
     <!-- Metal Roofing Pages (15 towns) -->
     <url>
-        <loc>https://randeroofing.com/metal-roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/metal-roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/metal-roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -1335,91 +1335,91 @@
 
     <!-- Flat Roofing Pages (15 towns) -->
     <url>
-        <loc>https://randeroofing.com/flat-roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/flat-roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/flat-roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -1427,91 +1427,91 @@
 
     <!-- Tile Roofing Pages (15 towns) -->
     <url>
-        <loc>https://randeroofing.com/tile-roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/tile-roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/tile-roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -1519,91 +1519,91 @@
 
     <!-- Slate Roofing Pages (15 towns) -->
     <url>
-        <loc>https://randeroofing.com/slate-roofing-newark-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-newark-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-east-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-east-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-irvington-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-irvington-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-bloomfield-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-bloomfield-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-west-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-west-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-montclair-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-montclair-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-belleville-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-belleville-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-livingston-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-livingston-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-nutley-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-nutley-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-maplewood-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-maplewood-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-millburn-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-millburn-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-south-orange-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-south-orange-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-verona-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-verona-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://randeroofing.com/slate-roofing-cedar-grove-nj.html</loc>
+        <loc>https://randeroofing.com/pages/services/slate-roofing-cedar-grove-nj.html</loc>
         <lastmod>2025-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
