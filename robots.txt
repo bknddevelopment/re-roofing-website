@@ -1,11 +1,32 @@
+# R&E Roofing - Production robots.txt
+# Last Updated: 2025-10-04
+# Domain: https://randeroofing.com
+
+# Allow all search engines
 User-agent: *
 Allow: /
 
-# Allow all crawlers to access all content
-Disallow:
+# Disallow test/dev files
+Disallow: /test-*.html
+Disallow: /*.sh
+Disallow: /scripts/
+Disallow: /docs/
 
-# Sitemap location (update with your actual domain)
+# Sitemap location
 Sitemap: https://randeroofing.com/sitemap.xml
 
-# Crawl delay (optional - be respectful to crawlers)
+# Crawl delay for respectful crawling
 Crawl-delay: 1
+
+# Specific bot configurations
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2

@@ -1,0 +1,3 @@
+ERROR: Content check failed - Live chat widget present - https://bknddevelopment.github.io/re-roofing-website/
+ERROR: Content check failed - Calculator function present in JS - https://bknddevelopment.github.io/re-roofing-website/js/main.js
+ERROR: Content check failed - Contact modal function present - https://bknddevelopment.github.io/re-roofing-website/js/main.js

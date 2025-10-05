@@ -1,0 +1,117 @@
+==================================================================
+GitHub Pages Deployment - Comprehensive Test Report
+Test Date: Sat Oct  4 19:04:56 EDT 2025
+URL: https://bknddevelopment.github.io/re-roofing-website
+==================================================================
+
+==================================================================
+1. HOMEPAGE TESTING
+==================================================================
+[0;32m✓[0m PASS: Homepage (HTTP 200)
+[0;32m✓[0m PASS: Homepage contains company name
+[0;32m✓[0m PASS: Homepage contains phone number
+[0;32m✓[0m PASS: Homepage has contact modal
+[0;32m✓[0m PASS: Homepage has mobile hamburger menu
+[0;32m✓[0m PASS: Homepage has RoofingContractor schema
+[0;32m✓[0m PASS: Homepage schema includes areaServed
+
+==================================================================
+2. CORE PAGES TESTING
+==================================================================
+[0;32m✓[0m PASS: About Page (HTTP 200)
+[0;32m✓[0m PASS: Services Page (HTTP 200)
+[0;32m✓[0m PASS: Calculator Page (HTTP 200)
+[0;32m✓[0m PASS: FAQ Page (HTTP 200)
+[0;32m✓[0m PASS: Quote Page (HTTP 200)
+[0;32m✓[0m PASS: Reviews Page (HTTP 200)
+[0;32m✓[0m PASS: Blog Page (HTTP 200)
+
+==================================================================
+3. TOWN PAGES TESTING (Tier 1)
+==================================================================
+[0;32m✓[0m PASS: Newark Town Page (HTTP 200)
+[0;32m✓[0m PASS: East Orange Town Page (HTTP 200)
+[0;32m✓[0m PASS: Irvington Town Page (HTTP 200)
+[0;32m✓[0m PASS: Bloomfield Town Page (HTTP 200)
+[0;32m✓[0m PASS: West Orange Town Page (HTTP 200)
+[0;32m✓[0m PASS: Montclair Town Page (HTTP 200)
+[0;32m✓[0m PASS: Belleville Town Page (HTTP 200)
+[0;32m✓[0m PASS: Livingston Town Page (HTTP 200)
+[0;32m✓[0m PASS: Nutley Town Page (HTTP 200)
+[0;32m✓[0m PASS: Maplewood Town Page (HTTP 200)
+[0;32m✓[0m PASS: Newark page mentions town name
+[0;32m✓[0m PASS: Bloomfield page mentions town name
+[0;32m✓[0m PASS: Montclair page mentions town name
+
+==================================================================
+4. SERVICE×LOCATION PAGES TESTING
+==================================================================
+[0;32m✓[0m PASS: Roof Repair - Newark (HTTP 200)
+[0;32m✓[0m PASS: Roof Replacement - Newark (HTTP 200)
+[0;32m✓[0m PASS: Gutter Installation - Bloomfield (HTTP 200)
+[0;32m✓[0m PASS: New Roof Installation - Montclair (HTTP 200)
+[0;32m✓[0m PASS: Emergency Roof Repair - East Orange (HTTP 200)
+[0;32m✓[0m PASS: Roof Leak Repair - Irvington (HTTP 200)
+[0;32m✓[0m PASS: Siding Installation - Livingston (HTTP 200)
+[0;32m✓[0m PASS: Gutter Repair - Nutley (HTTP 200)
+[0;32m✓[0m PASS: Service page contains service name
+[0;32m✓[0m PASS: Service page contains town name
+[0;32m✓[0m PASS: Service page has phone number
+
+==================================================================
+5. ASSETS & RESOURCES TESTING
+==================================================================
+[0;32m✓[0m PASS: Main CSS File (HTTP 200)
+[0;32m✓[0m PASS: Main JavaScript File (HTTP 200)
+[0;32m✓[0m PASS: Sitemap XML (HTTP 200)
+[0;32m✓[0m PASS: Robots.txt (HTTP 200)
+
+==================================================================
+6. SEO & META TAG VALIDATION
+==================================================================
+[0;32m✓[0m PASS: Homepage has title tag
+[0;32m✓[0m PASS: Homepage has meta description
+[0;32m✓[0m PASS: Homepage has canonical URL
+[0;32m✓[0m PASS: Homepage has viewport meta tag
+[0;32m✓[0m PASS: Homepage has Open Graph tags
+[0;32m✓[0m PASS: Homepage has Twitter Card tags
+
+==================================================================
+7. MOBILE RESPONSIVENESS INDICATORS
+==================================================================
+[0;32m✓[0m PASS: Mobile menu toggle present
+[0;32m✓[0m PASS: Mobile navigation present
+[0;32m✓[0m PASS: CSS contains media queries
+
+==================================================================
+8. FUNCTIONAL ELEMENTS CHECK
+==================================================================
+[0;32m✓[0m PASS: Contact modal element present
+[0;32m✓[0m PASS: Back to top button present
+[0;31m✗[0m FAIL: Live chat widget present
+[0;31m✗[0m FAIL: Calculator function present in JS
+[0;31m✗[0m FAIL: Contact modal function present
+
+==================================================================
+TEST SUMMARY
+==================================================================
+
+SITE STATISTICS:
+- Core Pages: 9
+- Town Pages: 15
+- Service Pages: 255
+- Total HTML Pages: ~280
+
+TEST RESULTS:
+Total Pages Tested: 30
+Total Tests Run: 56
+[0;32mTests Passed: 53[0m
+[0;31mTests Failed: 3[0m
+
+Pass Rate: 94.6%
+
+[1;33m==================================================================[0m
+[1;33mOVERALL STATUS: ⚠ MOSTLY FUNCTIONAL - MINOR ISSUES DETECTED[0m
+[1;33m==================================================================[0m
+
+Errors logged to: github-pages-test-errors.txt
